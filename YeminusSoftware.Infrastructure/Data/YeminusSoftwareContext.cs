@@ -14,11 +14,6 @@ namespace YeminusSoftware.Infrastructure.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>()
-            .Property(x => x.PriceList)
-            .HasConversion(listOfIntPrices => JsonConvert.SerializeObject(listOfIntPrices),
-            pricesJsonRepresentation => JsonConvert.DeserializeObject<List<int>>(pricesJsonRepresentation));
-            
-            modelBuilder.Entity<Product>()
             .HasData(SeedData.Products);
 
             modelBuilder.Entity<Product>().HasKey(
@@ -27,9 +22,16 @@ namespace YeminusSoftware.Infrastructure.Data
             modelBuilder.Entity<Product>().Property(x => x.Code)
             .ValueGeneratedOnAdd();
             
+            modelBuilder.Entity<Encrypt>().HasKey(
+            x => new { x.Code });
+
+            modelBuilder.Entity<Encrypt>().Property(x => x.Code)
+            .ValueGeneratedOnAdd();
+            
             base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<Product> Products { get; set; }
+        public DbSet<Encrypt> Encrypts { get; set; }
     }
 }

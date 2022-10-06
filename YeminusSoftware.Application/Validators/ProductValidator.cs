@@ -11,7 +11,7 @@ namespace YeminusSoftware.Application.Validators
             RuleFor(x => x.Vat).NotEmpty();
             RuleFor(x => x.ForSale).NotEmpty();
             RuleFor(x => x.ImgUrl).NotEmpty();
-            RuleFor(x => x.PriceList).NotEmpty();
+            RuleFor(x => x.Price).NotEmpty();
         }
     }
 }

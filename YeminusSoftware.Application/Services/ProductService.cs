@@ -36,11 +36,7 @@ namespace YeminusSoftware.Application.Services
             productEdit.Vat = product.Vat ?? product.Vat;
             productEdit.ForSale = product.ForSale ?? product.ForSale;
             productEdit.ImgUrl = product.ImgUrl ?? product.ImgUrl;
-            if (product.PriceList != null)
-            {
-                foreach (var price in product.PriceList)
-                    productEdit.PriceList.Append(price);
-            }
+            productEdit.Price = product.Price ?? productEdit.Price;
         }
         public async Task Delete(int id)
         {

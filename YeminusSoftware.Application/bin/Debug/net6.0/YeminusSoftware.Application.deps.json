@@ -10,7 +10,8 @@
         "dependencies": {
           "FluentValidation.AspNetCore": "11.2.2",
           "YeminusSoftware.Domain": "1.0.0",
-          "YeminusSoftware.Infrastructure": "1.0.0"
+          "YeminusSoftware.Infrastructure": "1.0.0",
+          "YeminusSoftware.Util": "1.0.0"
         },
         "runtime": {
           "YeminusSoftware.Application.dll": {}
@@ -210,6 +211,11 @@
         "runtime": {
           "YeminusSoftware.Infrastructure.dll": {}
         }
+      },
+      "YeminusSoftware.Util/1.0.0": {
+        "runtime": {
+          "YeminusSoftware.Util.dll": {}
+        }
       }
     }
   },
@@ -386,6 +392,11 @@
       "sha512": ""
     },
     "YeminusSoftware.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YeminusSoftware.Util/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

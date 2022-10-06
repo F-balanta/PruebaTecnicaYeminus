@@ -558,7 +558,8 @@
         "dependencies": {
           "FluentValidation.AspNetCore": "11.2.2",
           "YeminusSoftware.Domain": "1.0.0",
-          "YeminusSoftware.Infrastructure": "1.0.0"
+          "YeminusSoftware.Infrastructure": "1.0.0",
+          "YeminusSoftware.Util": "1.0.0"
         },
         "compile": {
           "bin/placeholder/YeminusSoftware.Application.dll": {}
@@ -592,6 +593,16 @@
         },
         "runtime": {
           "bin/placeholder/YeminusSoftware.Infrastructure.dll": {}
+        }
+      },
+      "YeminusSoftware.Util/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/YeminusSoftware.Util.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YeminusSoftware.Util.dll": {}
         }
       }
     }
@@ -1357,6 +1368,11 @@
       "type": "project",
       "path": "../YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj",
       "msbuildProject": "../YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj"
+    },
+    "YeminusSoftware.Util/1.0.0": {
+      "type": "project",
+      "path": "../YeminusSoftware.Util/YeminusSoftware.Util.csproj",
+      "msbuildProject": "../YeminusSoftware.Util/YeminusSoftware.Util.csproj"
     }
   },
   "projectFileDependencyGroups": {

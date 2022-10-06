@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeminusSoftware.Domain", "Y
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeminusSoftware.Infrastructure", "YeminusSoftware.Infrastructure\YeminusSoftware.Infrastructure.csproj", "{88EFEC48-863A-45D5-B1F7-A6999BEEDDF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeminusSoftware.Util", "YeminusSoftware.Util\YeminusSoftware.Util.csproj", "{788369AD-DA77-4AFC-AF5B-44504FC84EC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{88EFEC48-863A-45D5-B1F7-A6999BEEDDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88EFEC48-863A-45D5-B1F7-A6999BEEDDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88EFEC48-863A-45D5-B1F7-A6999BEEDDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788369AD-DA77-4AFC-AF5B-44504FC84EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788369AD-DA77-4AFC-AF5B-44504FC84EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788369AD-DA77-4AFC-AF5B-44504FC84EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788369AD-DA77-4AFC-AF5B-44504FC84EC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

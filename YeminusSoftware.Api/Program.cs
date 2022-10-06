@@ -2,6 +2,7 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using YeminusSoftware.Api.Middleware;
+using YeminusSoftware.Application.Helpers;
 using YeminusSoftware.Application.Interfaces;
 using YeminusSoftware.Application.Services;
 using YeminusSoftware.Application.Validators;
@@ -9,6 +10,7 @@ using YeminusSoftware.Domain.Repository;
 using YeminusSoftware.Domain.Repository.Base;
 using YeminusSoftware.Infrastructure.Data;
 using YeminusSoftware.Infrastructure.Reposotory;
+using YeminusSoftware.Util;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,8 +29,12 @@ builder.Services.AddDbContext<YeminusSoftwareContext>(options => options.UseNpgs
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
-
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IEncryptRepository, EncryptRepository>();
+builder.Services.AddScoped<IEncryptService, EncryptService>();
+builder.Services.AddScoped<IHelpers, Helpers>();
+
+
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

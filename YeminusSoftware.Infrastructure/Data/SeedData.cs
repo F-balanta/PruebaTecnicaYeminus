@@ -13,7 +13,7 @@ namespace YeminusSoftware.Infrastructure.Data
                 ImgUrl = "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
                 ForSale = true,
                 Vat = 19,
-                PriceList = new List<int>()
+                Price = 100000
             },new Product
             {
                 Code = 2,
@@ -21,7 +21,7 @@ namespace YeminusSoftware.Infrastructure.Data
                 ImgUrl = "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
                 ForSale = true,
                 Vat = 19,
-                PriceList = new List<int>()
+                Price = 50505
             },new Product
             {
                 Code = 3,
@@ -29,8 +29,7 @@ namespace YeminusSoftware.Infrastructure.Data
                 ImgUrl = "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
                 ForSale = true,
                 Vat = 19,
-                PriceList = new List<int>
-                {5000}
+                Price = 10000
             },new Product
             {
                 Code = 4,
@@ -38,8 +37,7 @@ namespace YeminusSoftware.Infrastructure.Data
                 ImgUrl = "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
                 ForSale = true,
                 Vat = 19,
-                PriceList = new List<int>
-                {50000}
+                Price = 10000
             },new Product
             {
                 Code = 5,
@@ -47,8 +45,7 @@ namespace YeminusSoftware.Infrastructure.Data
                 ImgUrl = "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
                 ForSale = true,
                 Vat = 19,
-                PriceList = new List<int>
-                {50400}
+                Price = 10000
             },new Product
             {
                 Code = 6,
@@ -56,8 +53,7 @@ namespace YeminusSoftware.Infrastructure.Data
                 ImgUrl = "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
                 ForSale = true,
                 Vat = 19,
-                PriceList = new List<int>
-                {4500}
+                Price = 10000
             },new Product
             {
                 Code = 7,
@@ -65,7 +61,7 @@ namespace YeminusSoftware.Infrastructure.Data
                 ImgUrl = "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
                 ForSale = true,
                 Vat = 19,
-                PriceList = new List<int>(){95000}
+                Price = 100000
             },new Product
             {
                 Code = 8,
@@ -73,8 +69,7 @@ namespace YeminusSoftware.Infrastructure.Data
                 ImgUrl = "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
                 ForSale = true,
                 Vat = 19,
-                PriceList = new List<int>
-                {36800}
+                Price = 10000
             },new Product
             {
                 Code = 9,
@@ -82,8 +77,7 @@ namespace YeminusSoftware.Infrastructure.Data
                 ImgUrl = "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
                 ForSale = true,
                 Vat = 19,
-                PriceList = new List<int>
-                {89000}
+                Price = 10000
             },
         };
     }

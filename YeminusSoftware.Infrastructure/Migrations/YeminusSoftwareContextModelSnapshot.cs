@@ -17,10 +17,30 @@ namespace YeminusSoftware.Infrastructure.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.9")
+                .HasAnnotation("ProductVersion", "6.0.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
+
+            modelBuilder.Entity("YeminusSoftware.Domain.Encrypt", b =>
+                {
+                    b.Property<int>("Code")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Code"));
+
+                    b.Property<int>("Key")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Phrase")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Code");
+
+                    b.ToTable("Encrypts");
+                });
 
             modelBuilder.Entity("YeminusSoftware.Domain.Product", b =>
                 {
@@ -39,8 +59,8 @@ namespace YeminusSoftware.Infrastructure.Migrations
                     b.Property<string>("ImgUrl")
                         .HasColumnType("text");
 
-                    b.Property<string>("PriceList")
-                        .HasColumnType("text");
+                    b.Property<int?>("Price")
+                        .HasColumnType("integer");
 
                     b.Property<int?>("Vat")
                         .HasColumnType("integer");
@@ -56,7 +76,7 @@ namespace YeminusSoftware.Infrastructure.Migrations
                             Description = "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
                             ForSale = true,
                             ImgUrl = "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-                            PriceList = "[]",
+                            Price = 100000,
                             Vat = 19
                         },
                         new
@@ -65,7 +85,7 @@ namespace YeminusSoftware.Infrastructure.Migrations
                             Description = "Mens Casual Premium Slim Fit T-Shirts",
                             ForSale = true,
                             ImgUrl = "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-                            PriceList = "[]",
+                            Price = 50505,
                             Vat = 19
                         },
                         new
@@ -74,7 +94,7 @@ namespace YeminusSoftware.Infrastructure.Migrations
                             Description = "Mens Cotton Jacket",
                             ForSale = true,
                             ImgUrl = "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-                            PriceList = "[5000]",
+                            Price = 10000,
                             Vat = 19
                         },
                         new
@@ -83,7 +103,7 @@ namespace YeminusSoftware.Infrastructure.Migrations
                             Description = "Mens Casual Slim Fit",
                             ForSale = true,
                             ImgUrl = "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-                            PriceList = "[50000]",
+                            Price = 10000,
                             Vat = 19
                         },
                         new
@@ -92,7 +112,7 @@ namespace YeminusSoftware.Infrastructure.Migrations
                             Description = "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
                             ForSale = true,
                             ImgUrl = "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
-                            PriceList = "[50400]",
+                            Price = 10000,
                             Vat = 19
                         },
                         new
@@ -101,7 +121,7 @@ namespace YeminusSoftware.Infrastructure.Migrations
                             Description = "Solid Gold Petite Micropave",
                             ForSale = true,
                             ImgUrl = "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
-                            PriceList = "[4500]",
+                            Price = 10000,
                             Vat = 19
                         },
                         new
@@ -110,7 +130,7 @@ namespace YeminusSoftware.Infrastructure.Migrations
                             Description = "White Gold Plated Princess",
                             ForSale = true,
                             ImgUrl = "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
-                            PriceList = "[95000]",
+                            Price = 100000,
                             Vat = 19
                         },
                         new
@@ -119,7 +139,7 @@ namespace YeminusSoftware.Infrastructure.Migrations
                             Description = "Pierced Owl Rose Gold Plated Stainless Steel Double",
                             ForSale = true,
                             ImgUrl = "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
-                            PriceList = "[36800]",
+                            Price = 10000,
                             Vat = 19
                         },
                         new
@@ -128,7 +148,7 @@ namespace YeminusSoftware.Infrastructure.Migrations
                             Description = "WD 2TB Elements Portable External Hard Drive - USB 3.0",
                             ForSale = true,
                             ImgUrl = "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
-                            PriceList = "[89000]",
+                            Price = 10000,
                             Vat = 19
                         });
                 });

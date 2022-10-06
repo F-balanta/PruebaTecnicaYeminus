@@ -6,7 +6,7 @@ namespace YeminusSoftware.Domain
     {
         public string? Description { get; set; }
 
-        public List<int>? PriceList { get; set; }
+        public int? Price { get; set; }
 
         public string? ImgUrl { get; set; }
 

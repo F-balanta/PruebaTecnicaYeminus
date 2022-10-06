@@ -46,3 +46,5 @@
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Api/obj/Debug/net6.0/YeminusSoftware.Api.pdb
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Api/obj/Debug/net6.0/YeminusSoftware.Api.genruntimeconfig.cache
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Api/obj/Debug/net6.0/ref/YeminusSoftware.Api.dll
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Api/bin/Debug/net6.0/YeminusSoftware.Util.dll
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Api/bin/Debug/net6.0/YeminusSoftware.Util.pdb

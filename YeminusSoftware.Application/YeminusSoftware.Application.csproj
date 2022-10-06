@@ -9,6 +9,7 @@
     <ItemGroup>
       <ProjectReference Include="..\YeminusSoftware.Domain\YeminusSoftware.Domain.csproj" />
       <ProjectReference Include="..\YeminusSoftware.Infrastructure\YeminusSoftware.Infrastructure.csproj" />
+      <ProjectReference Include="..\YeminusSoftware.Util\YeminusSoftware.Util.csproj" />
     </ItemGroup>
 
     <ItemGroup>
