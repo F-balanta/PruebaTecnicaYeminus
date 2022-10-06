@@ -11,6 +11,9 @@ using YeminusSoftware.Infrastructure.Data;
 using YeminusSoftware.Infrastructure.Reposotory;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
+
 var connectionString = builder.Configuration.GetConnectionString("HerokuConnection");
 
 // Add services to the container.
@@ -43,6 +46,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors();
 
 app.UseAuthorization();
 
