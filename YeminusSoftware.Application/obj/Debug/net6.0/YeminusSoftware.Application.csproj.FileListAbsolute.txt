@@ -15,5 +15,3 @@
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/obj/Debug/net6.0/refint/YeminusSoftware.Application.dll
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/obj/Debug/net6.0/YeminusSoftware.Application.pdb
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/obj/Debug/net6.0/ref/YeminusSoftware.Application.dll
-/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/bin/Debug/net6.0/Newtonsoft.Json.dll
-/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/bin/Debug/net6.0/Newtonsoft.Json.xml
