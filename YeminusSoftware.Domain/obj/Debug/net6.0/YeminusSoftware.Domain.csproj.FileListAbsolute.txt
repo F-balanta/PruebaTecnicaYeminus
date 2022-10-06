@@ -1,0 +1,12 @@
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/bin/Debug/net6.0/YeminusSoftware.Domain.deps.json
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/bin/Debug/net6.0/YeminusSoftware.Domain.dll
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/bin/Debug/net6.0/YeminusSoftware.Domain.pdb
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/obj/Debug/net6.0/YeminusSoftware.Domain.csproj.AssemblyReference.cache
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/obj/Debug/net6.0/YeminusSoftware.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/obj/Debug/net6.0/YeminusSoftware.Domain.AssemblyInfoInputs.cache
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/obj/Debug/net6.0/YeminusSoftware.Domain.AssemblyInfo.cs
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/obj/Debug/net6.0/YeminusSoftware.Domain.csproj.CoreCompileInputs.cache
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/obj/Debug/net6.0/YeminusSoftware.Domain.dll
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/obj/Debug/net6.0/refint/YeminusSoftware.Domain.dll
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/obj/Debug/net6.0/YeminusSoftware.Domain.pdb
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/obj/Debug/net6.0/ref/YeminusSoftware.Domain.dll

@@ -1,0 +1,17 @@
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/bin/Debug/net6.0/YeminusSoftware.Infrastructure.deps.json
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/bin/Debug/net6.0/YeminusSoftware.Infrastructure.dll
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/bin/Debug/net6.0/YeminusSoftware.Infrastructure.pdb
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/bin/Debug/net6.0/YeminusSoftware.Domain.dll
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/bin/Debug/net6.0/YeminusSoftware.Domain.pdb
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/YeminusSoftware.Infrastructure.csproj.AssemblyReference.cache
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/YeminusSoftware.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/YeminusSoftware.Infrastructure.AssemblyInfoInputs.cache
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/YeminusSoftware.Infrastructure.AssemblyInfo.cs
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/YeminusSoftware.Infrastructure.csproj.CoreCompileInputs.cache
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/YeminusSoftware.Infrastructure.csproj.CopyComplete
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/YeminusSoftware.Infrastructure.dll
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/refint/YeminusSoftware.Infrastructure.dll
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/YeminusSoftware.Infrastructure.pdb
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/ref/YeminusSoftware.Infrastructure.dll
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/bin/Debug/net6.0/Newtonsoft.Json.xml

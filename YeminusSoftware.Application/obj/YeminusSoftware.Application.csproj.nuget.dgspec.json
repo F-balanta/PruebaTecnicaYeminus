@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/YeminusSoftware.Application.csproj": {}
+  },
+  "projects": {
+    "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/YeminusSoftware.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/YeminusSoftware.Application.csproj",
+        "projectName": "YeminusSoftware.Application",
+        "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/YeminusSoftware.Application.csproj",
+        "packagesPath": "/home/jdbalantar/.nuget/packages/",
+        "outputPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jdbalantar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj": {
+                "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj"
+              },
+              "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj": {
+                "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj",
+        "projectName": "YeminusSoftware.Domain",
+        "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj",
+        "packagesPath": "/home/jdbalantar/.nuget/packages/",
+        "outputPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jdbalantar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj",
+        "projectName": "YeminusSoftware.Infrastructure",
+        "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj",
+        "packagesPath": "/home/jdbalantar/.nuget/packages/",
+        "outputPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jdbalantar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj": {
+                "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
