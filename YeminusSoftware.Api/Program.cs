@@ -11,6 +11,7 @@ using YeminusSoftware.Infrastructure.Data;
 using YeminusSoftware.Infrastructure.Reposotory;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("HerokuConnection");
 
 // Add services to the container.
 
@@ -18,7 +19,8 @@ builder.Services.AddControllers();
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddValidatorsFromAssemblyContaining<ProductValidator>();
 
-builder.Services.AddDbContext<YeminusSoftwareContext>(o => o.UseInMemoryDatabase("YeminusLocalConnection"));
+//builder.Services.AddDbContext<YeminusSoftwareContext>(o => o.UseInMemoryDatabase("YeminusLocalConnection"));
+builder.Services.AddDbContext<YeminusSoftwareContext>(options => options.UseNpgsql(connectionString));
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IProductRepository, ProductRepository>();

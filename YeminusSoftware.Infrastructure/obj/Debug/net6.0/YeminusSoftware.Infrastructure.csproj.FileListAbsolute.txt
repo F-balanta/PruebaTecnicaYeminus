@@ -15,3 +15,5 @@
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/ref/YeminusSoftware.Infrastructure.dll
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/bin/Debug/net6.0/Newtonsoft.Json.dll
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/bin/Debug/net6.0/Newtonsoft.Json.xml
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/bin/Debug/net6.0/YeminusSoftware.Infrastructure.runtimeconfig.json
+/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/Debug/net6.0/YeminusSoftware.Infrastructure.genruntimeconfig.cache
