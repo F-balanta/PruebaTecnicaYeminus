@@ -9,7 +9,7 @@
       <td>CODE</td>
       <td>PHRASE</td>
       <td>KEY</td>
-      <td>ACTIONS</td>
+      <td>ACTION</td>
     </tr>
     </thead>
     <tbody>
@@ -18,7 +18,6 @@
       <td>{{item.phrase}}</td>
       <td>{{item.key}}</td>
       <td>
-        <button class="btn btn-primary m-1" (click)="getDataEdit(item)">Edit</button>
         <button class="btn btn-primary m-1" (click)="getDataDelete(item)">Delete</button>
       </td>
     </tr>
@@ -28,25 +27,8 @@
   <h3> Decryipt Phrase</h3>
   <div class="d-flex">
     <input class="form-control w-25" type="number" [(ngModel)]="phrase.code" >
-    <button class=" btn btn-primary" (click)="getDataEdit(phrase)">Send</button>
+    <button class=" btn btn-primary" (click)="getDataEdit(phrase)" routerLink="/showPhrases">Send</button>
   </div>
-
-  <table class="table table-bordered">
-    <thead>
-    <tr>
-      <td>CODE</td>
-      <td>PHRASE</td>
-      <td>KEY</td>
-    </tr>
-    </thead>
-    <tbody>
-    <tr *ngFor="let item of dataTableDecrypt">
-      <td>{{item.code}}</td>
-      <td>{{item.phrase}}</td>
-      <td>{{item.key}}</td>
-    </tr>
-    </tbody>
-  </table>
 
 </div>
 
