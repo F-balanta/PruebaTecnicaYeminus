@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http'
 import {IPhrase} from "../../models/Interfaces/IPhrase";
-import {ICreatePhraseDto} from "../../models/IPhraseDto";
+import {ICreatePhraseDto, IDecryptDto} from "../../models/IPhraseDto";
 
 @Injectable({
   providedIn: 'root'
@@ -21,8 +21,8 @@ export class ApiService {
     return this.http.post<IPhrase>(`${this.apiUrl}`,phrase);
   }
 
-  updatePhrase(phrase:IPhrase){
-    return this.http.put<IPhrase[]>(`${this.apiUrl}/`,phrase);
+  decryptPhrase(phraseDto:IDecryptDto){
+    return this.http.put<IPhrase>(`${this.apiUrl}`,phraseDto);
   }
   deletePhrase(id:number){
     return this.http.delete(`${this.apiUrl}/${id}`);

@@ -10,3 +10,15 @@
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/obj/Debug/net6.0/refint/YeminusSoftware.Util.dll
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/obj/Debug/net6.0/YeminusSoftware.Util.pdb
 /home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/obj/Debug/net6.0/ref/YeminusSoftware.Util.dll
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\bin\Debug\net6.0\YeminusSoftware.Util.deps.json
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\bin\Debug\net6.0\YeminusSoftware.Util.dll
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\bin\Debug\net6.0\YeminusSoftware.Util.pdb
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\obj\Debug\net6.0\YeminusSoftware.Util.csproj.AssemblyReference.cache
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\obj\Debug\net6.0\YeminusSoftware.Util.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\obj\Debug\net6.0\YeminusSoftware.Util.AssemblyInfoInputs.cache
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\obj\Debug\net6.0\YeminusSoftware.Util.AssemblyInfo.cs
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\obj\Debug\net6.0\YeminusSoftware.Util.csproj.CoreCompileInputs.cache
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\obj\Debug\net6.0\YeminusSoftware.Util.dll
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\obj\Debug\net6.0\refint\YeminusSoftware.Util.dll
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\obj\Debug\net6.0\YeminusSoftware.Util.pdb
+C:\Users\davo-\OneDrive\Documentos\PruebaTecnicaYeminus\YeminusSoftware.Util\obj\Debug\net6.0\ref\YeminusSoftware.Util.dll
