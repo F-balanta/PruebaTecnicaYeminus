@@ -8,24 +8,30 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/home/jdbalantar/.nuget/packages/": {}
+    "C:\\Users\\davo-\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/YeminusSoftware.Util.csproj",
+      "projectUniqueName": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Util\\YeminusSoftware.Util.csproj",
       "projectName": "YeminusSoftware.Util",
-      "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/YeminusSoftware.Util.csproj",
-      "packagesPath": "/home/jdbalantar/.nuget/packages/",
-      "outputPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/obj/",
+      "projectPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Util\\YeminusSoftware.Util.csproj",
+      "packagesPath": "C:\\Users\\davo-\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Util\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/jdbalantar/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\davo-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -49,8 +55,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

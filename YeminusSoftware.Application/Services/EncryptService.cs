@@ -37,8 +37,8 @@ namespace YeminusSoftware.Application.Services
                 throw new RestException(HttpStatusCode.NotFound, new { message = "La frase que deseas desencriptar no existe" });
             
             var frase = new string(_helper.Desencriptar(phraseEncrypted.Phrase, phraseEncrypted.Key));
-            encrypt.Phrase = frase;
-            await _repository.UpdateAsync(encrypt);
+            phraseEncrypted.Phrase = frase;
+            await _repository.UpdateAsync(phraseEncrypted);
         }
         public async Task Delete(int id)
         {
