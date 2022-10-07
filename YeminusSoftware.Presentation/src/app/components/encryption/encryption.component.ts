@@ -28,6 +28,7 @@ export class EncryptionComponent implements OnInit {
 
   ngOnInit(): void {
     this.onGetAllPhrases();
+    this.onGetAllPhrases();
   }
 
   onGetAllPhrases() {
@@ -45,6 +46,7 @@ export class EncryptionComponent implements OnInit {
     console.log(dato);
     this.phraseService.decryptPhrase(dato).subscribe(data => {
       this.dataTableDecrypt.unshift(data);
+      this.onGetAllPhrases();
     })
 
   }

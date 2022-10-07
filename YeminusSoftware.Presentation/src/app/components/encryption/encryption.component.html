@@ -25,10 +25,14 @@
   </table>
 
   <h3> Decryipt Phrase</h3>
-  <div class="d-flex">
-    <input class="form-control w-25" type="number" [(ngModel)]="phrase.code" >
-    <button class=" btn btn-primary" (click)="getDataEdit(phrase)" routerLink="/showPhrases">Send</button>
-  </div>
+  <div class="row">
+    <div class="d-flex">
+      <label class="form-label m-2"> Please typing an code</label>
+      <input class="form-control w-25" type="number" [(ngModel)]="phrase.code">
+      <button class=" btn btn-primary" (click)="getDataEdit(phrase)" routerLink="/showPhrases">Send</button>
+    </div>
 
-</div>
+
+
+  </div>
 
