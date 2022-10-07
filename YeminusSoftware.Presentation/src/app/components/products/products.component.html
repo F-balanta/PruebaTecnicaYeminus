@@ -1,0 +1,80 @@
+<app-nav></app-nav>
+<div class="container">
+  <div class="container modal-Products">
+    <ng-template #formEditProduct let-modal>
+      <div class="modal-header">
+        <h4 class="modal-tittle">Edit Product</h4>
+        <button class="close" aria-label="close" type="button" (click)="modal.close()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="form-group">
+            <label for="txtDescription" class="form-label">Description</label>
+            <input id="txtDescription" class="form-control" type="text" [(ngModel)]="productChoseen.description"
+                   name="description">
+          </div>
+
+          <div class="form-group">
+            <label for="txtPrice" class="form-label">Price</label>
+            <input id="txtPrice" class="form-control" type="text" [(ngModel)]="productChoseen.price" name="priceList">
+          </div>
+
+          <div class="form-group">
+            <label for="txtImgUrl" class="form-label">Url Image</label>
+            <input id="txtImgUrl" class="form-control" type="text" [(ngModel)]="productChoseen.imgUrl" name="imgUrl">
+          </div>
+
+          <div class="form-group">
+            <label for="txtForSale" class="form-label">For Sale</label>
+            <select id="txtForSale" class="form-select" aria-label="Default select example"
+                    [(ngModel)]="productChoseen.forSale" name="forSale">
+              <option autofocus selected>Choose an Option</option>
+              <option value="false">No</option>
+              <option value="true">Yes</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="txtVat" class="form-label">Vat</label>
+            <input id="txtVat" class="form-control" type="number" [(ngModel)]="productChoseen.vat" name="vat">
+          </div>
+          <div class="d-inline-flex pt-3">
+            <button class="btn btn-secondary p-2" (click)="modal.close()">Cancelar</button>
+            <button class="btn btn-success p-2" required (click)="onUpdateProduct(productChoseen)">Update</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer"></div>
+    </ng-template>
+  </div>
+  <h1>LIST OF PRODUCTS</h1>
+  <button class="btn btn-primary mb-3" [routerLink]="['/createProduct']">Create Product</button>
+  <table class="table table-bordered">
+    <thead>
+    <tr>
+      <th>PRODUCT</th>
+      <th>DESCRIPTION</th>
+      <th>PRICE</th>
+      <th>FOR SALE</th>
+      <th>VAT</th>
+      <th>ACTIONS</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let products of datatable">
+      <td class="table-img"><img src="{{products.imgUrl}}" width="80"></td>
+      <td class="table-description">{{products.description}}</td>
+      <td>{{products.price}}</td>
+      <td>{{products.forSale}}</td>
+      <td>{{products.vat}}</td>
+      <td>
+        <button class="btn btn-primary m-1"(click)="getDataEdit(products)" (click)="modal.open(formEditProduct)">Editar</button>
+        <button class="btn btn-danger m-1" (click)="getDataDelete(products)">Eliminar</button>
+        <button (click)="onGetProductById(products.code)"> Enviar ID</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

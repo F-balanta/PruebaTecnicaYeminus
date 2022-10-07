@@ -1,0 +1,29 @@
+<app-nav></app-nav>
+
+<div class="container pt-5 mt-5">
+  <h1>ENCRYPTION PHRASES</h1>
+  <button routerLink="/createPhrases">Create New</button>
+  <table class="table table-group-divider">
+    <thead>
+    <tr>
+      <td>CODE</td>
+      <td>PHRASE</td>
+      <td>KEY</td>
+      <td>ACTIONS</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of datatable">
+      <td>{{item.code}}</td>
+      <td>{{item.phrase}}</td>
+      <td>{{item.key}}</td>
+      <td>
+        <button class="btn btn-primary" (click)="getDataEdit(item)">Edit</button>
+        <button class="btn btn-primary" (click)="getDataDelete(item)">Delete</button>
+      </td>
+
+    </tr>
+    </tbody>
+  </table>
+</div>
+

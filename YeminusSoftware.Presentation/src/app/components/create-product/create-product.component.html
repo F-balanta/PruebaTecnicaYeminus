@@ -1,0 +1,36 @@
+<app-nav></app-nav>
+<div class="container mt-5 w-auto">
+
+  <h1 class="mt-3 mb-3 text-center">CREATE PRODUCTS</h1>
+
+  <div class="form-group">
+      <label for="txtDescription" class="form-label">Description</label>
+      <input id="txtDescription" class="form-control" type="text" [(ngModel)]="newProduct.description" name="description">
+  </div>
+
+  <div class="form-group">
+    <label for="txtPrice" class="form-label">Price</label>
+    <input id="txtPrice" class="form-control" type="text" [(ngModel)]="newProduct.price" name="priceList">
+  </div>
+
+  <div class="form-group">
+    <label for="txtImgUrl" class="form-label">Url Image</label>
+    <input id="txtImgUrl" class="form-control" type="text" [(ngModel)]="newProduct.imgUrl" name="imgUrl">
+  </div>
+
+  <div class="form-group">
+    <label for="txtForSale" class="form-label">For Sale</label>
+    <select id="txtForSale" class="form-select" aria-label="Default select example" [(ngModel)]="newProduct.forSale" name="forSale">
+      <option autofocus selected>Choose an Option</option>
+      <option value="false">No</option>
+      <option value="true">Yes</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="txtVat" class="form-label">Vat</label>
+    <input id="txtVat" class="form-control" type="number" [(ngModel)]="newProduct.vat" name="vat">
+  </div>
+
+  <button class="btn btn-primary mt-3 m-1" (click)="getDataForm(newProduct)" [routerLink]="['/showProduts']">Create</button>
+</div>
