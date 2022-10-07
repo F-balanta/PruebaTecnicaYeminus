@@ -1,3 +1,5 @@
+using System.Net;
+using YeminusSoftware.Application.ErrorHandler;
 using YeminusSoftware.Application.Interfaces;
 using YeminusSoftware.Domain;
 using YeminusSoftware.Domain.Repository;
@@ -23,7 +25,7 @@ namespace YeminusSoftware.Application.Services
         
         public async Task<Encrypt> Create(Encrypt encrypt)
         {
-            var PhraseEncrypted = new Encrypt {Phrase = _helper.Encriptar(encrypt.Phrase, encrypt.Key)};
+            var PhraseEncrypted = new Encrypt {Phrase = _helper.Encriptar(encrypt.Phrase, encrypt.Key), Key = encrypt.Key};
             var newPhrase = await _repository.AddAsync(PhraseEncrypted);
             return newPhrase;
         }
@@ -31,7 +33,12 @@ namespace YeminusSoftware.Application.Services
         public async Task Update(Encrypt encrypt)
         {
             var phraseEncrypted = await _repository.GetByIdAsync(encrypt.Code);
-            encrypt.Phrase = _helper.Desencriptar(phraseEncrypted.Phrase, encrypt.Code);
+            if (phraseEncrypted == null)
+                throw new RestException(HttpStatusCode.NotFound, new { message = "La frase que deseas desencriptar no existe" });
+            
+            var frase = new string(_helper.Desencriptar(phraseEncrypted.Phrase, phraseEncrypted.Key));
+            encrypt.Phrase = frase;
+            await _repository.UpdateAsync(encrypt);
         }
         public async Task Delete(int id)
         {

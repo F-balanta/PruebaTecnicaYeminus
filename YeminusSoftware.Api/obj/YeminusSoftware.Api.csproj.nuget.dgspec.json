@@ -1,33 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Api/YeminusSoftware.Api.csproj": {}
+    "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Api\\YeminusSoftware.Api.csproj": {}
   },
   "projects": {
-    "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Api/YeminusSoftware.Api.csproj": {
+    "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Api\\YeminusSoftware.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Api/YeminusSoftware.Api.csproj",
+        "projectUniqueName": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Api\\YeminusSoftware.Api.csproj",
         "projectName": "YeminusSoftware.Api",
-        "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Api/YeminusSoftware.Api.csproj",
-        "packagesPath": "/home/jdbalantar/.nuget/packages/",
-        "outputPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Api/obj/",
+        "projectPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Api\\YeminusSoftware.Api.csproj",
+        "packagesPath": "C:\\Users\\davo-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/jdbalantar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\davo-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/YeminusSoftware.Application.csproj": {
-                "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/YeminusSoftware.Application.csproj"
+              "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Application\\YeminusSoftware.Application.csproj": {
+                "projectPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Application\\YeminusSoftware.Application.csproj"
               }
             }
           }
@@ -67,8 +72,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -80,40 +84,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/YeminusSoftware.Application.csproj": {
+    "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Application\\YeminusSoftware.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/YeminusSoftware.Application.csproj",
+        "projectUniqueName": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Application\\YeminusSoftware.Application.csproj",
         "projectName": "YeminusSoftware.Application",
-        "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/YeminusSoftware.Application.csproj",
-        "packagesPath": "/home/jdbalantar/.nuget/packages/",
-        "outputPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Application/obj/",
+        "projectPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Application\\YeminusSoftware.Application.csproj",
+        "packagesPath": "C:\\Users\\davo-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/jdbalantar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\davo-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj": {
-                "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj"
+              "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Domain\\YeminusSoftware.Domain.csproj": {
+                "projectPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Domain\\YeminusSoftware.Domain.csproj"
               },
-              "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj": {
-                "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj"
+              "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Infrastructure\\YeminusSoftware.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Infrastructure\\YeminusSoftware.Infrastructure.csproj"
               },
-              "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/YeminusSoftware.Util.csproj": {
-                "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/YeminusSoftware.Util.csproj"
+              "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Util\\YeminusSoftware.Util.csproj": {
+                "projectPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Util\\YeminusSoftware.Util.csproj"
               }
             }
           }
@@ -139,8 +148,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -149,26 +157,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj": {
+    "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Domain\\YeminusSoftware.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Domain\\YeminusSoftware.Domain.csproj",
         "projectName": "YeminusSoftware.Domain",
-        "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj",
-        "packagesPath": "/home/jdbalantar/.nuget/packages/",
-        "outputPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/obj/",
+        "projectPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Domain\\YeminusSoftware.Domain.csproj",
+        "packagesPath": "C:\\Users\\davo-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/jdbalantar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\davo-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -192,8 +205,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -202,34 +214,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj": {
+    "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Infrastructure\\YeminusSoftware.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Infrastructure\\YeminusSoftware.Infrastructure.csproj",
         "projectName": "YeminusSoftware.Infrastructure",
-        "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/YeminusSoftware.Infrastructure.csproj",
-        "packagesPath": "/home/jdbalantar/.nuget/packages/",
-        "outputPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Infrastructure/obj/",
+        "projectPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Infrastructure\\YeminusSoftware.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\davo-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/jdbalantar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\davo-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj": {
-                "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Domain/YeminusSoftware.Domain.csproj"
+              "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Domain\\YeminusSoftware.Domain.csproj": {
+                "projectPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Domain\\YeminusSoftware.Domain.csproj"
               }
             }
           }
@@ -279,8 +296,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -289,26 +305,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/YeminusSoftware.Util.csproj": {
+    "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Util\\YeminusSoftware.Util.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/YeminusSoftware.Util.csproj",
+        "projectUniqueName": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Util\\YeminusSoftware.Util.csproj",
         "projectName": "YeminusSoftware.Util",
-        "projectPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/YeminusSoftware.Util.csproj",
-        "packagesPath": "/home/jdbalantar/.nuget/packages/",
-        "outputPath": "/home/jdbalantar/RiderProjects/YeminusSoftware/YeminusSoftware.Util/obj/",
+        "projectPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Util\\YeminusSoftware.Util.csproj",
+        "packagesPath": "C:\\Users\\davo-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davo-\\OneDrive\\Documentos\\PruebaTecnicaYeminus\\YeminusSoftware.Util\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/jdbalantar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\davo-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -332,8 +353,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -342,7 +362,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

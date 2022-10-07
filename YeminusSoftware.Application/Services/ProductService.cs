@@ -29,6 +29,7 @@ namespace YeminusSoftware.Application.Services
         public async Task Update(Product product)
         {
             var productEdit = await _productRepository.GetByIdAsync(product.Code);
+
             if (productEdit == null)
                 throw new RestException(HttpStatusCode.NotFound, new { message = "El producto que deseas actualizar no existe" });
             
@@ -37,6 +38,7 @@ namespace YeminusSoftware.Application.Services
             productEdit.ForSale = product.ForSale ?? product.ForSale;
             productEdit.ImgUrl = product.ImgUrl ?? product.ImgUrl;
             productEdit.Price = product.Price ?? productEdit.Price;
+            await _productRepository.UpdateAsync(productEdit);
         }
         public async Task Delete(int id)
         {

@@ -46,7 +46,7 @@ namespace YeminusSoftware.Api.Controllers
         }
 
         [HttpPut]
-        public async Task DecryptPhrase([FromBody] EncryptForUpdateDto encryptViewModel)
+        public async Task DecryptPhrase(EncryptForUpdateDto encryptViewModel)
         {
             var mapped = _mapper.Map<Encrypt>(encryptViewModel);
             if (mapped == null)
